@@ -31,17 +31,7 @@ describe('ProductsListDir', () => {
     fixture.detectChanges();
     });
   
-    // afterEach(() => {
-    //   component.ngOnDestroy = function() {};
-    //   fixture.destroy();
-    // });
-  
-    // beforeEach(() => {
-    //     fixture = TestBed.createComponent(ProductsListDir);
-    //     component = fixture.componentInstance;
-    //     debug = fixture.debugElement;
-    //     button1 = debug.query(By.css('button'));
-    //   });
+
       it("should display confirmation on subscribe button click", () => {
         component.isAdd = false;    
         let addCartButton = fixture.debugElement.query(By.css("button"));
