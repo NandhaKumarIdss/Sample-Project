@@ -27,10 +27,14 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
+            "styles": [              
+              "node_modules/bootstrap/dist/css/bootstrap.min.css", 
+              "node_modules/font-awesome/css/font-awesome.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [              
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "offline"
+    }
+  },
+  "defaultProject": "offline",
+  "cli": {
+    "analytics": "77e7735f-ff8b-4d05-b546-fdd41ef70d83"
+  }
 }
